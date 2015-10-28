@@ -22,6 +22,9 @@
 		4D3682881BE1536C00980C33 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3682871BE1536C00980C33 /* ExtensionDelegate.swift */; };
 		4D36828A1BE1536C00980C33 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3682891BE1536C00980C33 /* NotificationController.swift */; };
 		4D36828C1BE1536C00980C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D36828B1BE1536C00980C33 /* Assets.xcassets */; };
+		4D3682A21BE154CE00980C33 /* pageTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3682A11BE154CE00980C33 /* pageTwo.swift */; settings = {ASSET_TAGS = (); }; };
+		4D3682A41BE156E600980C33 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3682A31BE156E600980C33 /* Singleton.swift */; settings = {ASSET_TAGS = (); }; };
+		4D3682A61BE1589E00980C33 /* convertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3682A51BE1589E00980C33 /* convertRow.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +108,9 @@
 		4D3682891BE1536C00980C33 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		4D36828B1BE1536C00980C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D36828D1BE1536C00980C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D3682A11BE154CE00980C33 /* pageTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageTwo.swift; sourceTree = "<group>"; };
+		4D3682A31BE156E600980C33 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		4D3682A51BE1589E00980C33 /* convertRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = convertRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +219,9 @@
 				4D36828B1BE1536C00980C33 /* Assets.xcassets */,
 				4D36828D1BE1536C00980C33 /* Info.plist */,
 				4D3682831BE1536C00980C33 /* Supporting Files */,
+				4D3682A11BE154CE00980C33 /* pageTwo.swift */,
+				4D3682A31BE156E600980C33 /* Singleton.swift */,
+				4D3682A51BE1589E00980C33 /* convertRow.swift */,
 			);
 			path = "midterm WatchKit Extension";
 			sourceTree = "<group>";
@@ -443,7 +452,10 @@
 			files = (
 				4D36828A1BE1536C00980C33 /* NotificationController.swift in Sources */,
 				4D3682881BE1536C00980C33 /* ExtensionDelegate.swift in Sources */,
+				4D3682A61BE1589E00980C33 /* convertRow.swift in Sources */,
 				4D3682861BE1536C00980C33 /* InterfaceController.swift in Sources */,
+				4D3682A41BE156E600980C33 /* Singleton.swift in Sources */,
+				4D3682A21BE154CE00980C33 /* pageTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
